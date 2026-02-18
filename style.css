@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "DM Mono", monospace;
+}
+
+.slot-machine {
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+    padding:10px ;
+}
+
+.header h1 {
+    font-family: "Ultra", serif;
+    font-size: 6em;
+    line-height: .9;
+    margin: 0;
+    color: #ebb701;
+    max-width: 10ch;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: white;
+}
